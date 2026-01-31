@@ -1,28 +1,40 @@
 {
-  "name": "trust",
-  "version": "0.1.0",
-  "private": true,
+  "name": "back",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
   "dependencies": {
-    "@emailjs/browser": "^4.4.1",
-    "@xenova/transformers": "^2.17.2",
-    "axios": "^1.12.2",
+    "@prisma/client": "^6.15.0",
+    "bcrypt": "^6.0.0",
     "bcryptjs": "^3.0.2",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.2.0",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^17.2.1",
     "emailjs": "^4.0.3",
     "emailjs-com": "^3.2.0",
-    "lucide-react": "^0.544.0",
-    "next": "15.5.2",
-    "onnxruntime-web": "^1.22.0",
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "tesseract.js": "^6.0.1"
+    "ethers": "^6.15.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.0.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.2",
+    "nodemailer": "^7.0.6",
+    "nodemon": "^3.1.10"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4"
+    "hardhat": "^3.0.4",
+    "prisma": "^6.15.0"
   }
 }
