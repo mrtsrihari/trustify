@@ -1,96 +1,36 @@
-Team Name: Trustify
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Credify is a simple and secure platform that helps verify the authenticity of academic certificates.
-It allows institutions and recruiters to quickly check whether a certificate is genuine, reducing fraud and saving time in the verification process.
+## Getting Started
 
-🔍 Problem Statement
+First, run the development server:
 
-Fake and tampered academic certificates are becoming more common in job applications and higher education admissions.
-Most verification processes still depend on manual checks or email confirmations, which are slow, unreliable, and difficult to scale.
-There is no common system that allows certificates to be verified easily across different institutions, leading to confusion and lack of trust.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-💡 Solution Overview
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Credify provides a secure digital solution to verify academic certificates in a fast and reliable way.
-By using cryptographic verification and QR codes, the platform ensures that certificates cannot be easily altered and can be verified instantly by recruiters or institutions.
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-🧠 Key Features
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-Secure verification to prevent certificate tampering
+## Learn More
 
-QR code or unique ID–based validation
+To learn more about Next.js, take a look at the following resources:
 
-Support for older paper certificates using OCR
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Detection of forged marks, photos, or seals
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-Simple dashboards for institutions and verifiers
+## Deploy on Vercel
 
-🏗️ System Workflow
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Institutions upload verified certificate details
-
-The system generates a unique cryptographic hash
-
-This hash is stored securely in a digital ledger
-
-A QR code is added to the certificate
-
-Recruiters scan the QR code to instantly verify authenticity
-
-🧩 Tech Stack
-
-Web-based frontend for easy access
-
-Backend services to handle certificate verification
-
-Secure database for storing certificate records
-
-Cryptographic hashing for data integrity
-
-QR code–based verification system
-
-🎥 Demo
-
-A working prototype is available to demonstrate the complete certificate verification flow.
-
-🔗 Demo Video: (Add your link here)
-🔗 Sample Website: (Optional)
-
-📸 Screenshots / Visuals
-
-Screenshots and diagrams can be found in the /assets folder to help understand the workflow and verification process.
-
-🚀 Feasibility
-
-The project can be developed as a working prototype within an ideathon timeline.
-It uses mock data for demonstration and does not depend on government systems.
-The platform is built using open-source tools and is designed to scale in the future.
-
-📈 Impact
-
-Credify significantly reduces the time required for certificate verification—from weeks to just a few seconds.
-It helps prevent fraud, saves effort for recruiters, and builds trust in academic credentials.
-Most importantly, it improves the credibility and employability of students.
-
-🔮 Future Scope
-
-Integration with DigiLocker or National Academic Depository
-
-Mobile application for QR-based verification
-
-Advanced AI-based forgery detection
-
-Expansion for nationwide and cross-institution use
-
-Support for international credential verification
-
-👥 Team
-
-Trustify
-NIT Ideathon Project
-Team of three members
-
-📜 License
-
-This project is developed for academic and ideathon purposes.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
